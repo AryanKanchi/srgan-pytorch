@@ -1,0 +1,30 @@
+# ── Model checkpoints (large .pth files) ──
+checkpoints/
+
+# ── Training data ──
+data/
+
+# ── Per-epoch result grids (keep only curated samples) ──
+results/epoch_*.png
+
+# ── Logs (optional: remove this line if you want metrics.json in repo) ──
+logs/
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Virtual environment ──
+.venv/
+venv/
+env/
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+
+# ── IDE ──
+.vscode/
+.idea/
